@@ -39,22 +39,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master the core battle dynamics from day one with our complete starter walkthrough covering controls, dodging, and early survival."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Combat Basics & Grazing",
+          "description": "Learn SOUL movement precision, TP generation through near-miss grazing, and how to stay alive during intense bullet hell phases."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "ACT & Mercy Mechanics",
+          "description": "Understand party commands, ACT options, and pacifist victory routes to pacify challenging opponents without losing HP."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Deltarune Kris Fight."
+          "title": "Boss Attack Strategies",
+          "description": "Analyze multi-phase sword strikes, arena boundary traps, and reaction timing to conquer difficult combat encounters."
         }
       ]
     },
@@ -62,237 +62,293 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Kris Boss Guide",
+        "Attack Patterns",
+        "Combat Controls",
+        "Soul Mechanics"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Essential tactics, controls, and survival tips for starting your Deltarune Kris Fight adventure.",
+          "href": "/guide/deltarune-kris-fight-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Combat",
+          "title": "Attack Patterns",
+          "description": "Complete breakdown of blade slashes, arena contractions, and bullet patterns.",
+          "href": "/combat/deltarune-kris-fight-attack-patterns"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Mechanics",
+          "title": "Controls & Keybinds",
+          "description": "Full keyboard and controller layout guide for precise SOUL evasion.",
+          "href": "/mechanics/deltarune-kris-fight-controls"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Boss",
+          "title": "Boss Fight Strategies",
+          "description": "Phase-by-phase survival strategies and party coordination tips.",
+          "href": "/guide/deltarune-kris-fight-boss-fight"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Lore",
+          "title": "Kris Character & Lore",
+          "description": "Deep dive into Kris's Dark World abilities, the Red SOUL, and fan theories.",
+          "href": "/characters/deltarune-kris-fight-kris"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Endings",
+          "title": "All Battle Endings",
+          "description": "Explore pacifist, neutral, and alternate route outcomes for Kris encounters.",
+          "href": "/guide/deltarune-kris-fight-endings"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Deltarune Kris Fight?",
       "paragraphs": [
-        "Deltarune Kris Fight is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Deltarune Kris Fight explores the thrilling combat encounters, fan-made boss battles, and tactical mechanics surrounding Kris, the enigmatic human protagonist of Toby Fox's celebrated RPG Deltarune. Players navigate intricate bullet hell arenas, manage Tension Points (TP), and command party members through intense real-time dodging and turn-based decision making.",
+        "Whether you are analyzing Kris's autonomous actions and Red SOUL lore, mastering frame-tight grazing techniques, or striving for a flawless no-hit victory against custom community boss mods, our wiki delivers comprehensive combat breakdowns, phase guides, and strategy databases."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
-        {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Original Creator",
+          "value": "Toby Fox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "RPG & Bullet Hell"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Platform",
+          "value": "PC & Console"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Combat System",
+          "value": "Turn-Based & Real-Time"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Key Mechanic",
+          "value": "SOUL Grazing & ACT"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Community Battles",
+          "value": "CYF & Fangames"
         }
       ],
-      "cta": "Explore All Guides"
+      "cta": "Explore Battle Guides"
     },
     "explore": {
       "title": "Explore Deltarune Kris Fight Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master every facet of the Kris encounter with comprehensive combat walkthroughs, attack pattern breakdowns, controls keybinds, and lore insights.",
       "modules": [
         {
           "order": 1,
-          "name": "Deltarune Kris Fight Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/deltarune-kris-fight-codes",
-          "displayType": "code-box",
+          "name": "Deltarune Kris Fight Guide",
+          "description": "Provide a complete overview of the Kris fight concept, including battle mechanics, controls, objectives, and important gameplay information. This module helps new players understand what the encounter is and how to approach it.",
+          "href": "/guide/deltarune-kris-fight-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Learn foundational controls and calibrate your SOUL movement sensitivity"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Understand the split between turn-based party commands and real-time evasion"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Master close-proximity grazing to rapidly build Tension Points (TP)"
+            },
+            {
+              "label": "4",
+              "detail": "Execute synchronized ACT skills with Susie and Ralsei to open Mercy windows"
+            },
+            {
+              "label": "5",
+              "detail": "Recognize multi-phase blade telegraphs and shifting boundary box hazards"
+            },
+            {
+              "label": "6",
+              "detail": "Stock optimal recovery items and maintain defense during desperation phases"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/deltarune-kris-fight-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Deltarune Kris Fight Gameplay",
+          "description": "Show gameplay details, battle flow, attack patterns, and defensive strategies related to Kris encounters. This section targets users searching for actual fight demonstrations and mechanics explanations.",
+          "href": "/combat/deltarune-kris-fight-attack-patterns",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Slash Arc",
+              "detail": "Wide horizontal blade strikes across upper or lower bullet board zones"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Thrust",
+              "detail": "Linear forward lunges requiring vertical side-stepping micro-movements"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Box Shift",
+              "detail": "Dynamic arena shrinkage and moving walls that restrict dodging room"
+            },
+            {
+              "label": "Finisher",
+              "detail": "High-density projectile barrages demanding rhythmic grazing maneuvers"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/deltarune-kris-fight-tier-list",
+          "name": "Deltarune Kris Fight Battle Tips",
+          "description": "Collect practical tips for surviving fights, using ACT options, managing attacks, and improving player performance. It focuses on common beginner questions about winning difficult encounters.",
+          "href": "/guide/deltarune-kris-fight-strategies",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Precision Grazing — Safely skim projectile boundaries to fuel essential party healing and pacifying spells."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Telegraph Reading — Watch Kris blade wind-ups to preposition the SOUL before bounding boxes contract."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Inventory Prep — Stock high-yield consumables like Revive Mints and Dark Candy to survive phase transitions."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Panic Dashing — Frantic movements across the arena increase collision rates during tight bullet spreads."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/deltarune-kris-fight-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Deltarune Kris Fight Characters",
+          "description": "Introduce Kris and related characters involved in battles, including their roles, abilities, and story connections. This helps capture character-focused searches around the fight.",
+          "href": "/characters/deltarune-kris-fight-kris",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Kris",
+              "detail": "The silent human leader equipped with swift sword slashes and ACT leadership"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Susie",
+              "detail": "Heavy-hitting powerhouse who unleashes Rude Buster and high-damage physicals"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Ralsei",
+              "detail": "Dark World prince providing vital party healing through Heal Prayer and Pacify"
+            },
+            {
+              "label": "Red SOUL",
+              "detail": "The player-guided heart representing human determination and dodging focus"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/deltarune-kris-fight-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Deltarune Kris Fight Controls",
+          "description": "Explain available controls, commands, and battle interface actions for players. This module targets searches from users who need quick gameplay references.",
+          "href": "/mechanics/deltarune-kris-fight-controls",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Arrows / WASD",
+              "detail": "Navigate battle menus and steer the Red SOUL across the bullet arena"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Z / Enter",
+              "detail": "Confirm menu choices, hit attack bar targets, and advance dialogue"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "X / Shift",
+              "detail": "Cancel selections or engage slow-speed focus mode for micro-dodging"
+            },
+            {
+              "label": "C / Ctrl",
+              "detail": "Access quick item shortcuts or skip previously viewed battle text lines"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/deltarune-kris-fight-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Deltarune Kris Fight Secrets",
+          "description": "Cover hidden details, discoveries, and interesting facts related to Kris battles and the wider Deltarune universe. This section is designed for exploration-focused visitors.",
+          "href": "/theory/deltarune-kris-fight-lore",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Autonomy",
+              "detail": "Uncover story lore behind Kris removing the player SOUL during night sequences"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Snowgrave",
+              "detail": "Analyze alternate narrative outcomes and eerie psychological boss dynamics"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "The Knight",
+              "detail": "Explore compelling community arguments linking Kris to Dark Fountain creation"
+            },
+            {
+              "label": "CYF Mods",
+              "detail": "Discover custom secret boss mods designed by passionate indie creators"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Deltarune Kris Fight Videos",
+          "description": "Provide curated official and community gameplay videos showing Kris-related fights and battle systems. Videos help users understand patterns faster through visual examples.",
+          "href": "/media/deltarune-kris-fight-youtube",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "No-Hit Run",
+              "detail": "Flawless evasion demonstrations against complex bullet board patterns"
+            },
+            {
+              "label": "Boss Demos",
+              "detail": "Showcases of fan-created Kris encounters built on Create Your Frisk"
+            },
+            {
+              "label": "Animations",
+              "detail": "High-fidelity fan animations depicting high-stakes Dark World duels"
+            },
+            {
+              "label": "OST Remix",
+              "detail": "Electrifying battle theme remixes and original soundtrack arrangements"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Deltarune Kris Fight Updates",
+          "description": "Track official Deltarune announcements, chapter releases, and gameplay-related updates that may affect Kris fight information. This keeps the website content fresh for returning visitors.",
+          "href": "/mechanics/deltarune-kris-fight-mechanics",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Chapter 1",
+              "detail": "Card Kingdom journey establishing party battle flow and Tension Points"
+            },
+            {
+              "label": "Chapter 2",
+              "detail": "Cyber World expansion introducing Queen, Spamton NEO, and advanced ACTs"
+            },
+            {
+              "label": "Chapters 3-4",
+              "detail": "Upcoming episodic releases expanding Kris character arcs and battle systems"
+            },
+            {
+              "label": "Engine Polish",
+              "detail": "Official development updates detailing balance and gamepad accessibility"
             }
           ]
         }
@@ -300,27 +356,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Deltarune Kris Fight.",
+      "description": "Quick answers to common questions about Deltarune Kris Fight combat mechanics and lore.",
       "items": [
         {
           "question": "What is Deltarune Kris Fight?",
-          "answer": "Deltarune Kris Fight is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Deltarune Kris Fight refers to the tactical combat mechanics, narrative confrontations, and fan-created boss battles featuring Kris, the main human protagonist of Toby Fox's episodic RPG Deltarune. It encompasses official Dark World combat systems as well as popular community-developed boss battles."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do you dodge attacks effectively in Deltarune Kris Fight?",
+          "answer": "Effective dodging in Deltarune Kris Fight requires keeping your Red SOUL centered, observing Kris's blade telegraphs before attacks unleash, and using focus keys (Shift or X) for micro-adjustments rather than frantically darting toward arena corners."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How does the Tension Points (TP) grazing system work?",
+          "answer": "When facing battles in Deltarune Kris Fight, positioning your SOUL close to projectiles without taking damage triggers the graze mechanic. Grazing generates Tension Points (TP), which are needed to cast crucial spells such as Ralsei's Heal Prayer or pacifying skills."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Can you defeat Kris peacefully using Mercy and ACT?",
+          "answer": "Yes, true to Deltarune design, most Deltarune Kris Fight encounters feature pacifist routes where players can use party ACT commands and survival pacing to fill the Mercy bar, concluding the encounter without reducing HP to zero."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Where can I play or watch community Deltarune Kris Fight fan encounters?",
+          "answer": "Community Deltarune Kris Fight creations are commonly hosted on platforms like Game Jolt and Scratch or built inside Create Your Frisk (CYF). Full video showcases, speedruns, and no-hit attempts are widely available on YouTube."
         }
       ]
     },
