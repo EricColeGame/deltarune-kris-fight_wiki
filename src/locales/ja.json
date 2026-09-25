@@ -1,1 +1,466 @@
-{}
+{
+  "site": {
+    "name": "Deltarune Kris Fight Wiki",
+    "shortName": "Deltarune Kris Fight",
+    "tagline": "ボスの攻略・戦闘システム・バトル徹底解説",
+    "description": "Deltarune Kris Fight Wikiへようこそ。クリス戦の攻略、バトルテクニック、ボス対策、キャラクター詳細、ファンリソースを網羅。",
+    "legalNotice": "非公式ファンWikiです。プレイヤーによって作られています。"
+  },
+  "nav": {
+    "guide": "攻略",
+    "combat": "戦闘",
+    "characters": "キャラクター",
+    "theory": "考察",
+    "media": "メディア",
+    "mechanics": "仕様",
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切替"
+  },
+  "home": {
+    "meta": {
+      "title": "デルタルーン クリス戦闘攻略 Wiki - ボス攻略 & バトルガイド",
+      "description": "デルタルーン クリス戦闘攻略 Wiki。クリス戦の立ち回り、弾幕回避のコツ、ボス攻略、キャラクター解説、ファンコミュニティのバトル情報を完全網羅。"
+    },
+    "hero": {
+      "eyebrow": "Deltarune ファンバトルガイド",
+      "title": "Deltarune Kris Fight Wiki",
+      "description": "クリス戦の戦闘システム、ボス対策、キャラ性能、戦闘のコツ、Deltaruneのバトルシステムを網羅したファン制作の総合ガイド。",
+      "stats": [
+        "戦闘システム",
+        "ボス攻略",
+        "クリス戦ガイド",
+        "チャプター更新"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "ボス攻略",
+      "tertiaryCta": "Deltaruneをプレイ",
+      "videoLabel": "公式メディア"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "全ガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここからスタート",
+      "title": "Deltarune Kris Fight 攻略への第一歩",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "基本操作からSOUL回避、序盤の生き残り方まで、クリス戦の基礎を初日からマスター。"
+        },
+        {
+          "number": "2",
+          "title": "戦闘基礎とグレイズ",
+          "description": "精密なSOUL操作、弾をかすめてTP（テンションポイント）を溜める技術、激しい弾幕の回避法を解説。"
+        },
+        {
+          "number": "3",
+          "title": "こうどう（ACT）とにがす（MERCY）",
+          "description": "仲間への指示、こうどうコマンド、HPを削らずに平和的に勝利する逃走・和解ルートを完全理解。"
+        },
+        {
+          "number": "4",
+          "title": "ボスの攻撃パターン攻略",
+          "description": "多段階の剣撃、エリア収縮トラップ、反応タイミングを見極めて高難易度の戦闘を制覇。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "注目の攻略トピック",
+      "quickLinks": [
+        "クリスボス攻略",
+        "攻撃パターン",
+        "戦闘操作方法",
+        "ソウルシステム"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者向け戦闘ガイド",
+          "description": "Deltarune Kris Fightを始めるための必須テクニック、操作方法、生存のコツ。",
+          "href": "/guide/deltarune-kris-fight-guide"
+        },
+        {
+          "badge": "戦闘",
+          "title": "攻撃パターン解析",
+          "description": "剣の斬撃、バトル枠の収縮、弾幕パターンの完全分析と安全地帯の解説。",
+          "href": "/combat/deltarune-kris-fight-attack-patterns"
+        },
+        {
+          "badge": "仕様",
+          "title": "操作方法とキー配置",
+          "description": "精密なSOUL回避を実現するキーボード・コントローラーのおすすめ操作設定。",
+          "href": "/mechanics/deltarune-kris-fight-controls"
+        },
+        {
+          "badge": "ボス",
+          "title": "ボス戦攻略ストラテジー",
+          "description": "各フェーズごとの立ち回り、パーティ連携、ピンチ脱出の具体的手順。",
+          "href": "/guide/deltarune-kris-fight-boss-fight"
+        },
+        {
+          "badge": "考察",
+          "title": "クリスの性能とストーリー設定",
+          "description": "闇の世界での能力、赤のソウルの謎、ファンコミュニティの考察を深掘り。",
+          "href": "/characters/deltarune-kris-fight-kris"
+        },
+        {
+          "badge": "エンディング",
+          "title": "全戦闘エンディング分岐",
+          "description": "平和主義ルート、中立ルート、特殊ルートにおける結末の違いと解放条件。",
+          "href": "/guide/deltarune-kris-fight-endings"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Deltarune Kris Fight とは？",
+      "paragraphs": [
+        "Deltarune Kris Fightは、Toby Foxが手掛ける大人気RPG『DELTARUNE』の主人公クリスを巡る白熱の戦闘、ファンメイドのボスバトル、戦術的なシステムを追求するガイドハブです。プレイヤーは入り組んだ弾幕フィールドをくぐり抜け、TP（テンションポイント）を管理し、リアルタイムの回避とターン制のコマンド選択を駆使して戦います。",
+        "クリスの自律的な行動や赤のソウルの謎、極限のフレーム回避によるグレイズ技術の習得から、コミュニティ制作のカスタムボスMODでのノーヒット撃破まで、当Wikiは詳細な戦闘解説、フェーズ別攻略、戦略データベースをお届けします。"
+      ],
+      "stats": [
+        {
+          "label": "原作者",
+          "value": "Toby Fox"
+        },
+        {
+          "label": "ジャンル",
+          "value": "RPG & 弾幕"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "PC / 各種ゲーム機"
+        },
+        {
+          "label": "戦闘システム",
+          "value": "ターン制 ＋ リアルタイム回避"
+        },
+        {
+          "label": "重要システム",
+          "value": "ソウルグレイズ ＆ こうどう"
+        },
+        {
+          "label": "ファンコミュニティ戦",
+          "value": "CYF ＆ ファンゲーム"
+        }
+      ],
+      "cta": "バトルガイドを見る"
+    },
+    "explore": {
+      "title": "Deltarune Kris Fight Wiki を探索",
+      "description": "包括的なチュートリアル、攻撃パターン解析、奥深い世界設定考察まで、クリス戦のあらゆる要素を網羅。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Deltarune Kris Fight 攻略ガイド",
+          "description": "クリス戦の基礎概念、戦闘システム、操作方法、目的、重要ゲームプレイ情報を網羅した完全概要。初心者が戦闘の流れを掴むための必携ガイド。",
+          "href": "/guide/deltarune-kris-fight-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "基本操作を学び、SOUL移動の感度と立ち回りを把握する"
+            },
+            {
+              "label": "2",
+              "detail": "ターン制のパーティ指示とリアルタイム弾幕回避の切り替えを理解する"
+            },
+            {
+              "label": "3",
+              "detail": "弾への超接近グレイズをマスターし、テンションポイント（TP）を素早くチャージする"
+            },
+            {
+              "label": "4",
+              "detail": "スージィやラルセイとの連携ACTを実行し、MERCY（にがす）のチャンスを広げる"
+            },
+            {
+              "label": "5",
+              "detail": "多段階の剣攻撃の予備動作と変化するバトル枠の危険を察知する"
+            },
+            {
+              "label": "6",
+              "detail": "最適な回復アイテムを準備し、発狂・最終フェーズでも防御を維持して生き残る"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Deltarune Kris Fight ゲームプレイ詳細",
+          "description": "クリス戦のバトルフロー、攻撃パターン、防御戦術など、実際の戦闘実演と詳細なシステム解説を収録。",
+          "href": "/combat/deltarune-kris-fight-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "剣の薙ぎ払い",
+              "detail": "連続した斬撃の軌道を見極めて安全な隙間に潜り込む回避法"
+            },
+            {
+              "label": "エリア収縮",
+              "detail": "狭まるバトルボックス内で弾幕を効率よくやり過ごすポジショニング"
+            },
+            {
+              "label": "テンポ変化",
+              "detail": "BGMのリズムに合わせて加速するフェーズ移行への対処術"
+            },
+            {
+              "label": "防御タイミング",
+              "detail": "回避困難な攻撃に対するぼうぎょコマンドによるダメージ軽減とTP獲得"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Deltarune Kris Fight バトルのコツ",
+          "description": "ピンチを切り抜ける生存テクニック、ACTコマンドの活用、高難度バトルを突破するための実践的アドバイス。",
+          "href": "/guide/deltarune-kris-fight-battle-tips",
+          "displayType": "accordion",
+          "highlights": [
+            {
+              "label": "中央維持",
+              "detail": "壁際に追い詰められないようSOULを常に画面中央付近に保つ立ち回り"
+            },
+            {
+              "label": "回復の優先度",
+              "detail": "ラルセイのいやしの祈りと貴重なアイテムの賢い使い分け"
+            },
+            {
+              "label": "予備動作の察知",
+              "detail": "敵のアニメーション変化から次の攻撃パターンを即座に予測"
+            },
+            {
+              "label": "ノーヒットの心得",
+              "detail": "反復練習で各フェーズの弾幕配置を体で覚える練習法"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Deltarune Kris Fight 登場キャラクター",
+          "description": "クリスをはじめとする戦闘に関わるキャラクターの役割、アビリティ、ストーリー上の背景を詳細解説。",
+          "href": "/characters/deltarune-kris-fight-characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "クリス",
+              "detail": "赤のソウルを宿し、独自のこうどうコマンドを持つ謎多きリーダー"
+            },
+            {
+              "label": "スージィ",
+              "detail": "高い攻撃力を誇る豪快な戦士。ルードバスターによる強力な一撃"
+            },
+            {
+              "label": "ラルセイ",
+              "detail": "いやしの祈りやスリープでパーティを支える闇の王子の魔法使い"
+            },
+            {
+              "label": "器（Vessel）",
+              "detail": "オープニングで作成された未完の身体とクリスの繋がりに関する考察"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Deltarune Kris Fight 操作方法・設定",
+          "description": "キーボード・ゲームパッドの操作割り当て、コマンド入力、素早く確認できるリファレンス。",
+          "href": "/mechanics/deltarune-kris-fight-controls",
+          "displayType": "table",
+          "highlights": [
+            {
+              "label": "方向キー / スティック",
+              "detail": "SOULの精密な8方向移動と弾幕の間隙のすり抜け"
+            },
+            {
+              "label": "Z / 決定",
+              "detail": "コマンドの決定、テキスト送り、攻撃バーのタイミング入力"
+            },
+            {
+              "label": "X / キャンセル / 低速",
+              "detail": "コマンドキャンセルおよび長押しによるSOULの精密低速移動"
+            },
+            {
+              "label": "C / メニュー",
+              "detail": "フィールド画面でのステータス確認およびインベントリ呼び出し"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Deltarune Kris Fight 隠し要素・裏話",
+          "description": "クリス戦やDeltaruneの世界に隠された秘密、小ネタ、ファンコミュニティで話題の謎を徹底追及。",
+          "href": "/theory/deltarune-kris-fight-secrets",
+          "displayType": "accordion",
+          "highlights": [
+            {
+              "label": "夜の行動",
+              "detail": "夜間に自らソウルを引き抜くクリスの行動とストーリーの謎"
+            },
+            {
+              "label": "スノーグレイブ",
+              "detail": "特殊な裏ルートがもたらす不穏な展開とボスの挙動変化の分析"
+            },
+            {
+              "label": "咆哮の騎士",
+              "detail": "闇の泉を創り出す存在とクリスを結ぶコミュニティの有力な議論"
+            },
+            {
+              "label": "CYF MOD",
+              "detail": "情熱的なクリエイターたちが制作した裏ボス・高難度MODの数々"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Deltarune Kris Fight 動画ギャラリー",
+          "description": "クリス戦の攻略、弾幕実演、ファンコミュニティによる名プレイ動画を厳選してお届け。",
+          "href": "/media/deltarune-kris-fight-youtube",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ノーヒット動画",
+              "detail": "一切の被弾を許さない超絶技巧の弾幕回避プレイ実演"
+            },
+            {
+              "label": "ファンメイドボス",
+              "detail": "Create Your Friskで再現・拡張された自作クリス戦のハイライト"
+            },
+            {
+              "label": "ファンアニメーション",
+              "detail": "闇の世界での激戦を圧倒的クオリティで描いた映像作品群"
+            },
+            {
+              "label": "BGMアレンジ",
+              "detail": "戦闘曲の熱狂的なリミックスやオーケストラアレンジ楽曲"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Deltarune Kris Fight アップデート情報",
+          "description": "Deltarune公式の発表、新チャプターの進捗、戦闘システムに影響する最新情報を追跡。",
+          "href": "/mechanics/deltarune-kris-fight-mechanics",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Chapter 1",
+              "detail": "カード王国編。パーティ戦闘の流れとテンションポイントの基礎を確立"
+            },
+            {
+              "label": "Chapter 2",
+              "detail": "サイバーワールド編。クイーンやスパムトンNEO、高度なACTが追加"
+            },
+            {
+              "label": "Chapter 3-4",
+              "detail": "クリスの物語とバトルシステムをさらに拡張する今後のチャプター"
+            },
+            {
+              "label": "システム調整",
+              "detail": "ゲームパッド操作やゲームバランスに関する公式の開発アップデート"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問 (FAQ)",
+      "description": "Deltarune Kris Fightの戦闘システム、攻略法、設定に関する疑問にお答えします。",
+      "items": [
+        {
+          "question": "Deltarune Kris Fight とは何ですか？",
+          "answer": "Deltarune Kris Fightは、Toby FoxのRPG『DELTARUNE』の主人公クリスを巡る戦闘システム、物語上の対峙、およびファンコミュニティが制作したボスバトル全般を指します。公式の戦闘システムからファン制作の高難度バトルまで幅広く扱っています。"
+        },
+        {
+          "question": "Deltarune Kris Fightで攻撃を上手に回避するコツは？",
+          "answer": "攻撃を避ける際は、赤のソウルを画面中央付近に保ち、クリスの予備動作（剣の構えなど）を注視することが重要です。慌てて隅に逃げ込まず、低速移動キー（ShiftまたはX）を活用して小さなステップで微調整しましょう。"
+        },
+        {
+          "question": "TP（テンションポイント）のグレイズ（かすり）はどのように機能しますか？",
+          "answer": "敵の弾幕に当たらずギリギリまでソウルを近づけると「グレイズ（かすり）」判定が発生します。グレイズによってTPが蓄積され、ラルセイの「いやしの祈り」などの魔法や各種サポートスキルを発動できるようになります。"
+        },
+        {
+          "question": "MERCY（にがす）やACT（こうどう）を使って平和的に勝利できますか？",
+          "answer": "はい。Deltaruneの設計思想に則り、多くの戦闘ではACTコマンドや的確な立ち回りでマーシーゲージを100%にすることで、敵のHPをゼロにすることなく平和的に戦闘を終わらせることができます。"
+        },
+        {
+          "question": "コミュニティ制作のDeltarune Kris Fightはどこでプレイまたは視聴できますか？",
+          "answer": "ファン制作のクリス戦はGame Jolt、Scratch、Create Your Frisk (CYF)などで公開されています。また、YouTubeで攻略動画、スピードラン、ノーヒット挑戦動画などを多数視聴できます。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Deltarune Kris Fight を極める準備はできましたか？",
+      "description": "バトルの基本から手強いボス戦まで、当Wikiの充実した無料ガイドがあなたの攻略をサポートします。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Deltaruneをプレイ"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki ナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新済み",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Robloxでプレイ",
+    "inThisSection": "このセクションの内容",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "お困りですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "現在利用可能なガイドはありません。後ほどご確認ください。"
+  },
+  "footer": {
+    "aboutTitle": "Deltarune Kris Fight Wiki",
+    "about": "Deltarune Kris Fight Wikiは、Deltaruneプレイヤーのためにクリスの戦闘システム、ボス対策、バトル仕様、必須知識をお届けする独立ファンWikiです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド一覧",
+    "legal": "法的表記",
+    "copyright": "© 2026 Deltarune Kris Fight Wiki. Toby Fox または Deltarune との提携関係はありません。",
+    "description": "Deltaruneにおけるクリス戦とボスバトルのための包括的攻略ガイド・Wiki。",
+    "playGame": "Deltaruneをプレイ",
+    "officialDiscord": "公式 Discord",
+    "officialYoutube": "公式 YouTube",
+    "vvBuilder": "戦闘シミュレーター",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "種族ガイド",
+    "bossGuides": "ボス攻略ガイド",
+    "buildGuide": "ビルドガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "guide": "攻略",
+    "combat": "戦闘",
+    "characters": "キャラクター",
+    "theory": "考察",
+    "media": "メディア",
+    "mechanics": "仕様"
+  },
+  "guide": {
+    "overviewTitle": "攻略ガイド概要",
+    "overviewDescription": "Deltarune Kris Fightの徹底攻略チャート、初心者向け戦略、ボス戦術、エンディング分岐ガイド。"
+  },
+  "combat": {
+    "overviewTitle": "戦闘システム概要",
+    "overviewDescription": "クリス戦のバトルシステム、攻撃パターン、ノーヒット攻略、SOULモード、回避テクニックをマスター。"
+  },
+  "characters": {
+    "overviewTitle": "キャラクター概要",
+    "overviewDescription": "クリスの性能、咆哮の騎士の考察、器との関係、ステータス、モーション、キャラクター設定の深層。"
+  },
+  "theory": {
+    "overviewTitle": "考察概要",
+    "overviewDescription": "Deltarune Kris Fightの伝承、裏ルートの謎、プレイヤーSOULのメカニズム、ファンの戦闘仮説を徹底分析。"
+  },
+  "media": {
+    "overviewTitle": "メディア概要",
+    "overviewDescription": "Deltarune Kris Fightのサウンドトラック名曲、戦闘アニメーション、コミュニティ作品、動画アーカイブ。"
+  },
+  "mechanics": {
+    "overviewTitle": "システム・仕様概要",
+    "overviewDescription": "クリス戦の操作体系、TPとグレイズ計算式、HP増減、ステータス補正、難易度システムを徹底解析。"
+  }
+}

@@ -1,1 +1,466 @@
-{}
+{
+  "site": {
+    "name": "Deltarune Kris Fight Wiki",
+    "shortName": "Deltarune Kris Fight",
+    "tagline": "Boss-Leitfaden, Kampfmechaniken & Kampftipps",
+    "description": "Entdecke das Deltarune Kris Fight Wiki mit Kampf-Guides, taktischen Tipps, Boss-Strategien, Charakterdetails und Fan-Ressourcen zu Kris-Kämpfen.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler erstellt."
+  },
+  "nav": {
+    "guide": "Guide",
+    "combat": "Kampf",
+    "characters": "Charaktere",
+    "theory": "Theorie",
+    "media": "Medien",
+    "mechanics": "Mechaniken",
+    "home": "Start",
+    "menu": "Menü",
+    "toggleTheme": "Design umschalten"
+  },
+  "home": {
+    "meta": {
+      "title": "Deltarune Kris Kampf Wiki - Boss-Leitfaden & Tipps",
+      "description": "Entdecke das Deltarune Kris Kampf Wiki mit Kampfführern, Ausweichtipps, Boss-Strategien, Charakterdetails und Community-Ressourcen für Kris-Kämpfe."
+    },
+    "hero": {
+      "eyebrow": "Deltarune Fan-Kampfleitfaden",
+      "title": "Deltarune Kris Fight Wiki",
+      "description": "Ein von Fans erstellter Leitfaden zu Kris-Kampfmechaniken, Boss-Strategien, Charakterfähigkeiten, taktischen Tipps und Deltarune-Kampfsystemen.",
+      "stats": [
+        "Kampfmechaniken",
+        "Boss-Strategien",
+        "Kris-Kampf-Guide",
+        "Kapitel-Updates"
+      ],
+      "primaryCta": "Einsteiger-Guide",
+      "secondaryCta": "Boss-Guides",
+      "tertiaryCta": "Deltarune spielen",
+      "videoLabel": "Offizielle Medien"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Leitfäden durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier beginnen",
+      "title": "Deine Reise in Deltarune Kris Fight",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Guide",
+          "description": "Meistere die grundlegenden Kampfdynamiken vom ersten Tag an mit unserem umfassenden Leitfaden zu Steuerung, Ausweichen und frühem Überleben."
+        },
+        {
+          "number": "2",
+          "title": "Kampfgrundlagen & Streifen (Grazing)",
+          "description": "Lerne präzise Seelen-Bewegungen, das Erzeugen von Spannungspunkten (TP) durch knappes Streifen von Projektilen und Überlebenstaktiken im Bullet-Hell."
+        },
+        {
+          "number": "3",
+          "title": "HANDELN & VERSCHONEN Mechaniken",
+          "description": "Verstehe Gruppenbefehle, HANDELN-Optionen (ACT) und pazifistische Wege, um fordernde Gegner ohne TP-Verlust friedlich zu besiegen."
+        },
+        {
+          "number": "4",
+          "title": "Boss-Angriffsmuster meistern",
+          "description": "Analysiere mehrphasige Schwerthiebe, Verengungen des Kampffeldes und Reaktionszeiten, um anspruchsvolle Boss-Begegnungen zu bestehen."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Aktuelle Trends",
+      "quickLinks": [
+        "Kris Boss-Guide",
+        "Angriffsmuster",
+        "Kampfsteuerung",
+        "Seelen-Mechaniken"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Leitfaden",
+          "description": "Wesentliche Taktiken, Tastenbelegungen und Überlebenstipps für dein Deltarune Kris Fight Abenteuer.",
+          "href": "/guide/deltarune-kris-fight-guide"
+        },
+        {
+          "badge": "Kampf",
+          "title": "Angriffsmuster-Analyse",
+          "description": "Vollständige Aufschlüsselung von Schwertstreichen, Kampffeldverengungen und Geschossbahnen.",
+          "href": "/combat/deltarune-kris-fight-attack-patterns"
+        },
+        {
+          "badge": "Mechaniken",
+          "title": "Steuerung & Tastenbelegung",
+          "description": "Kompletter Steuerungsleitfaden für Tastatur und Controller für präzises Ausweichen der Seele.",
+          "href": "/mechanics/deltarune-kris-fight-controls"
+        },
+        {
+          "badge": "Boss",
+          "title": "Boss-Kampf-Strategien",
+          "description": "Schritt-für-Schritt Überlebensstrategien nach Phasen und koordinierte Gruppenfähigkeiten.",
+          "href": "/guide/deltarune-kris-fight-boss-fight"
+        },
+        {
+          "badge": "Lore",
+          "title": "Kris: Charakter & Lore",
+          "description": "Tiefer Einblick in Kris' Fähigkeiten in der Dunklen Welt, die Rote Seele und Fan-Theorien.",
+          "href": "/characters/deltarune-kris-fight-kris"
+        },
+        {
+          "badge": "Enden",
+          "title": "Alle Kampf-Enden",
+          "description": "Erkunde pazifistische, neutrale und alternative Routenausgänge für Kris-Begegnungen.",
+          "href": "/guide/deltarune-kris-fight-endings"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Deltarune Kris Fight?",
+      "paragraphs": [
+        "Deltarune Kris Fight beleuchtet die spannenden Kampfbegegnungen, Fan-Bosskämpfe und taktischen Spielmechaniken rund um Kris, die rätselhafte menschliche Hauptfigur aus Toby Fox' gefeiertem Rollenspiel Deltarune. Spieler bewegen sich durch anspruchsvolle Bullet-Hell-Felder, verwalten Spannungspunkte (TP) und befehligen Gruppenmitglieder in einer Mischung aus Echtzeit-Ausweichen und rundenbasierten Entscheidungen.",
+        "Ob du Kris' autonome Handlungen und die Hintergründe der Roten Seele analysierst, präzise Streiftechniken (Graze) meisterst oder einen fehlerfreien No-Hit-Sieg in benutzerdefinierten Boss-Mods anstrebst – unser Wiki liefert umfassende Phasen-Leitfäden, Kampfauswertungen und strategische Datenbanken."
+      ],
+      "stats": [
+        {
+          "label": "Originaler Schöpfer",
+          "value": "Toby Fox"
+        },
+        {
+          "label": "Genre",
+          "value": "RPG & Bullet Hell"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC & Konsolen"
+        },
+        {
+          "label": "Kampfsystem",
+          "value": "Rundenbasiert & Echtzeit-Ausweichen"
+        },
+        {
+          "label": "Schlüsselmechanik",
+          "value": "Seelen-Streifen (Graze) & HANDELN"
+        },
+        {
+          "label": "Community-Kämpfe",
+          "value": "CYF & Fangames"
+        }
+      ],
+      "cta": "Kampf-Guides erkunden"
+    },
+    "explore": {
+      "title": "Erkunde das Deltarune Kris Fight Wiki",
+      "description": "Meistere jede Facette der Kris-Begegnungen mit detaillierten Komplettlösungen, Angriffsmuster-Analysen und tiefen Lore-Diskussionen.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Deltarune Kris Kampf-Leitfaden",
+          "description": "Vollständiger Überblick über das Kris-Kampfkonzept, einschließlich Kampfmechaniken, Steuerung, Zielen und wichtigen Gameplay-Informationen für Einsteiger.",
+          "href": "/guide/deltarune-kris-fight-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Erlerne grundlegende Steuerungsbefehle und passe die Empfindlichkeit deiner Seelenbewegung an"
+            },
+            {
+              "label": "2",
+              "detail": "Verstehe den Wechsel zwischen rundenbasierten Gruppenkommandos und Echtzeit-Ausweichen"
+            },
+            {
+              "label": "3",
+              "detail": "Meistere knappes Streifen (Grazing), um rasch Spannungspunkte (TP) aufzubauen"
+            },
+            {
+              "label": "4",
+              "detail": "Setze abgestimmte HANDELN-Fähigkeiten mit Susie und Ralsei ein, um VERSCHONEN-Fenster zu öffnen"
+            },
+            {
+              "label": "5",
+              "detail": "Erkenne mehrstufige Schwert-Vorankündigungen und gefährliche Veränderungen des Kampffeldes"
+            },
+            {
+              "label": "6",
+              "detail": "Führe optimale Heilungsgegenstände mit und verteidige gezielt in kritischen Phasen"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Deltarune Kris Fight Gameplay",
+          "description": "Gameplay-Details, Kampfabläufe, Angriffsmuster und Defensivstrategien in den Kris-Konfrontationen.",
+          "href": "/combat/deltarune-kris-fight-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Schwertstreiche",
+              "detail": "Analyse von Klingenbögen zur schnellen Erkennung sicherer Zonen im Kampffeld"
+            },
+            {
+              "label": "Feldverengung",
+              "detail": "Optimale Positionierung bei schrumpfenden Begrenzungen der Kampfarena"
+            },
+            {
+              "label": "Tempowechsel",
+              "detail": "Anpassung an sich beschleunigende Phasen im Takt der dynamischen Kampfmusik"
+            },
+            {
+              "label": "Verteidigung",
+              "detail": "Gezielter Einsatz des Verteidigen-Befehls zur Schadensminderung und TP-Aufladung"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Kampftipps & Überlebenstaktiken",
+          "description": "Praktische Tipps zum Überleben harter Bossphasen, optimaler Einsatz von HANDELN-Optionen und Leistungssteigerung.",
+          "href": "/guide/deltarune-kris-fight-battle-tips",
+          "displayType": "accordion",
+          "highlights": [
+            {
+              "label": "Zentrum halten",
+              "detail": "Die Seele mittig halten, um nicht an Ecken und Rändern eingekesselt zu werden"
+            },
+            {
+              "label": "Heilpriorität",
+              "detail": "Ausgewogener Einsatz von Ralseis Heilgebet und wertvollen Inventargegenständen"
+            },
+            {
+              "label": "Telegraph-Lesen",
+              "detail": "Erkennung von optischen Vorboten und Animationen vor bevorstehenden Angriffswellen"
+            },
+            {
+              "label": "No-Hit-Training",
+              "detail": "Strukturiertes Üben zur fehlerfreien Beherrschung aller Projektilphasen"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Deltarune Kris Fight Charaktere",
+          "description": "Vorstellung von Kris und beteiligten Charakteren, ihrer Rollen, Fähigkeiten und Story-Hintergründe im Kampf.",
+          "href": "/characters/deltarune-kris-fight-characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Kris",
+              "detail": "Der geheimnisvolle menschliche Anführer mit der Roten Seele und einzigartigen HANDELN-Fähigkeiten"
+            },
+            {
+              "label": "Susie",
+              "detail": "Die schlagkräftige Kriegerin der Gruppe mit verheerenden Angriffen wie Rude Buster"
+            },
+            {
+              "label": "Ralsei",
+              "detail": "Der gütige Magier der Dunklen Welt, meisterhaft im Unterstützen und Heilen"
+            },
+            {
+              "label": "Das Gefäß (Vessel)",
+              "detail": "Theorien und Verknüpfungen zur verworfenen Schöpfung zu Beginn des Spiels"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Steuerung & Tastenbelegung",
+          "description": "Übersicht über alle Steuerungselemente, Tastaturbefehle und Gamepad-Tastenbelegungen für schnelle Referenz.",
+          "href": "/mechanics/deltarune-kris-fight-controls",
+          "displayType": "table",
+          "highlights": [
+            {
+              "label": "Richtungstasten / Stick",
+              "detail": "Präzise 8-Wege-Bewegung der Seele durch enge Geschosslücken"
+            },
+            {
+              "label": "Z / Bestätigen",
+              "detail": "Auswahl von Befehlen, Textfortschritt und Timing der Angriffsleiste"
+            },
+            {
+              "label": "X / Abbrechen / Langsam",
+              "detail": "Aktionen abbrechen und Halten für langsame, präzise Mikrobewegungen"
+            },
+            {
+              "label": "C / Menü",
+              "detail": "Aufrufen des Inventars und Überprüfen von Gruppen-Statuswerten"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Geheimnisse & Hintergrundgeschichten",
+          "description": "Verborgene Details, Entdeckungen und spannende Fakten zu Kris-Kämpfen und der Welt von Deltarune.",
+          "href": "/theory/deltarune-kris-fight-secrets",
+          "displayType": "accordion",
+          "highlights": [
+            {
+              "label": "Nachtsequenzen",
+              "detail": "Hintergründe zu den unheimlichen Momenten, in denen Kris die Seele herausreißt"
+            },
+            {
+              "label": "Schneegrab-Route",
+              "detail": "Analyse düsterer alternativer Erzählstränge und veränderter Bossdynamiken"
+            },
+            {
+              "label": "Der Tosende Ritter",
+              "detail": "Verbreitete Community-Theorien zur Erschaffung der Dunklen Quellen"
+            },
+            {
+              "label": "CYF-Modifikationen",
+              "detail": "Kreative Fan-Bosskämpfe, entwickelt in Create Your Frisk"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Deltarune Kris Fight Videos",
+          "description": "Kuratierte Gameplay-Videos aus der Community und offizielle Trailer mit Bosskämpfen und Spielmechaniken.",
+          "href": "/media/deltarune-kris-fight-youtube",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "No-Hit-Läufe",
+              "detail": "Perfekte Ausweichdemonstrationen gegen extrem dichte Geschossformationen"
+            },
+            {
+              "label": "Boss-Demos",
+              "detail": "Präsentationen faszinierender Fan-Begegnungen auf Create Your Frisk Basis"
+            },
+            {
+              "label": "Fan-Animationen",
+              "detail": "Hochwertig animierte Duelle zwischen Licht- und Dunkelweltlern"
+            },
+            {
+              "label": "OST-Remixe",
+              "detail": "Mitreißende Neuinterpretationen und orchestrale Arrangements der Kampfthemen"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Deltarune-Updates & Neuigkeiten",
+          "description": "Verfolgung offizieller Ankündigungen, neuer Kapitel und Änderungen an Kampfsystemen.",
+          "href": "/mechanics/deltarune-kris-fight-mechanics",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Kapitel 1",
+              "detail": "Kartenkönigreich-Einführung mit grundlegendem Gruppenkampf und TP-System"
+            },
+            {
+              "label": "Kapitel 2",
+              "detail": "Cyberwelt-Erweiterung mit Queen, Spamton NEO und erweiterten HANDELN-Optionen"
+            },
+            {
+              "label": "Kapitel 3 & 4",
+              "detail": "Kommende Veröffentlichungen zur Vertiefung von Kris' Story und Kampfsystem"
+            },
+            {
+              "label": "Engine-Optimierung",
+              "detail": "Entwickler-Updates zur Spielbalance und Barrierefreiheit mit Controllern"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen (FAQ)",
+      "description": "Schnelle Antworten auf die wichtigsten Fragen zu Kampfmechaniken und Lore in Deltarune Kris Fight.",
+      "items": [
+        {
+          "question": "Was ist Deltarune Kris Fight?",
+          "answer": "Deltarune Kris Fight bezieht sich auf die taktischen Kampfmechaniken, Story-Konfrontationen und von Fans erstellten Bosskämpfe rund um Kris, den menschlichen Hauptcharakter in Toby Fox' RPG Deltarune. Dies umfasst offizielle Spielsysteme der Dunklen Welt sowie beliebte Community-Bosskämpfe."
+        },
+        {
+          "question": "Wie weicht man in Deltarune Kris Fight effektiv Angriffen aus?",
+          "answer": "Effektives Ausweichen erfordert, dass du die Rote Seele möglichst zentriert hältst, die visuellen Vorankündigungen von Kris' Klinge genau beobachtest und die Langsam-Taste (Shift oder X) für feinste Mikrobewegungen nutzt, anstatt hektisch in Ecken zu fliehen."
+        },
+        {
+          "question": "Wie funktioniert das Streifen (Grazing) und das Spannungspunkte-System (TP)?",
+          "answer": "Wenn du deine Seele nah an feindliche Geschosse heranbewegst, ohne Schaden zu nehmen, wird die Graze-Mechanik ausgelöst. Dies generiert Spannungspunkte (TP), die notwendig sind, um überlebenswichtige Zauber wie Ralseis Heilgebet oder Besänftigungs-Fähigkeiten zu wirken."
+        },
+        {
+          "question": "Kann man Kris friedlich mit VERSCHONEN und HANDELN besiegen?",
+          "answer": "Ja, ganz im Sinne von Deltarunes Philosophie bieten die meisten Kris-Kämpfe pazifistische Routen. Indem du gezielte HANDELN-Aktionen nutzt und Runden überstehst, füllst du die VERSCHONEN-Leiste und beendest den Kampf, ohne die gegnerischen KP auf null zu reduzieren."
+        },
+        {
+          "question": "Wo kann man Community-Kämpfe zu Deltarune Kris Fight spielen oder ansehen?",
+          "answer": "Fan-Kreationen zu Kris-Kämpfen werden üblicherweise auf Plattformen wie Game Jolt, Scratch oder als Create Your Frisk (CYF) Modifikationen bereitgestellt. Zahlreiche Spieldemonstrationen, Speedruns und No-Hit-Läufe sind auf YouTube verfügbar."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Deltarune Kris Fight zu meistern?",
+      "description": "Von den Kampfgrundlagen bis hin zu herausfordernden Bosskämpfen bietet dir unser Community-Wiki kostenlose, aktuelle Leitfäden.",
+      "primary": "Einsteiger-Guide lesen",
+      "secondary": "Deltarune spielen"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes anzeigen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Artikel",
+    "relatedGuides": "Verwandte Leitfäden",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Start",
+    "noGuidesAvailable": "Noch keine Leitfäden verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Deltarune Kris Fight Wiki",
+    "about": "Deltarune Kris Fight Wiki ist ein unabhängiger Fan-Leitfaden zu Kris-Kampfmechaniken, Boss-Strategien, Spielsystemen und unverzichtbarem Wissen für Deltarune-Spieler.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Leitfäden",
+    "legal": "Rechtliches",
+    "copyright": "© 2026 Deltarune Kris Fight Wiki. Nicht mit Toby Fox oder Deltarune verbunden.",
+    "description": "Umfassender Kampfleitfaden und Wiki für Kris-Kämpfe und Boss-Begegnungen in Deltarune.",
+    "playGame": "Deltarune spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Kampf-Planer",
+    "beginnerGuide": "Einsteiger-Guide",
+    "raceGuides": "Rassen-Guides",
+    "bossGuides": "Boss-Guides",
+    "buildGuide": "Build-Guide",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "guide": "Guide",
+    "combat": "Kampf",
+    "characters": "Charaktere",
+    "theory": "Theorie",
+    "media": "Medien",
+    "mechanics": "Mechaniken"
+  },
+  "guide": {
+    "overviewTitle": "Guide-Übersicht",
+    "overviewDescription": "Umfassende Komplettlösungen, Einsteiger-Strategien, Boss-Kampftaktiken und Enden-Leitfäden für Deltarune Kris Fight."
+  },
+  "combat": {
+    "overviewTitle": "Kampf-Übersicht",
+    "overviewDescription": "Meistere Kris-Kampfsysteme, Angriffsmuster, No-Hit-Strategien, Seelen-Modi und taktische Ausweichtechniken in Deltarune."
+  },
+  "characters": {
+    "overviewTitle": "Charakter-Übersicht",
+    "overviewDescription": "Detaillierte Analyse von Kris, Theorien zum Tosenden Ritter, Verbindungen zum Gefäß, Statuswerte und Charakter-Lore."
+  },
+  "theory": {
+    "overviewTitle": "Theorie-Übersicht",
+    "overviewDescription": "Tiefgehende Analysen der Deltarune Kris Fight Lore, Schneegrab-Verbindungen, Spieler-Seelen-Mechaniken und Fan-Kampftheorien."
+  },
+  "media": {
+    "overviewTitle": "Medien-Übersicht",
+    "overviewDescription": "Soundtrack-Highlights, Kampfanimationen, Community-Kreationen, Videos und Mediendiskussionen zu Deltarune Kris Fight."
+  },
+  "mechanics": {
+    "overviewTitle": "Mechaniken-Übersicht",
+    "overviewDescription": "Tiefgehende Aufschlüsselung der Kris-Kampfsteuerung, TP- und Streifberechnungen, KP-Formeln und Schwierigkeitsmechaniken."
+  }
+}

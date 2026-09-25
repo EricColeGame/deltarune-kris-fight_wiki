@@ -227,9 +227,31 @@ const GROUP_TITLES_JA: Record<string, string> = {
   mechanics: "システム",
 };
 
+// 西班牙语分组标题映射
+const GROUP_TITLES_ES: Record<string, string> = {
+  guide: "Guía",
+  combat: "Combate",
+  characters: "Personajes",
+  theory: "Teoría",
+  media: "Medios",
+  mechanics: "Mecánicas",
+};
+
+// 德语分组标题映射
+const GROUP_TITLES_DE: Record<string, string> = {
+  guide: "Guide",
+  combat: "Kampf",
+  characters: "Charaktere",
+  theory: "Theorie",
+  media: "Medien",
+  mechanics: "Mechaniken",
+};
+
 // locale → 分组标题映射
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
   ja: GROUP_TITLES_JA,
+  es: GROUP_TITLES_ES,
+  de: GROUP_TITLES_DE,
 };
 
 // locale → "Overview" 翻译

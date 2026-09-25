@@ -1,1 +1,466 @@
-{}
+{
+  "site": {
+    "name": "Deltarune Kris Fight Wiki",
+    "shortName": "Deltarune Kris Fight",
+    "tagline": "Guía de Jefes, Mecánicas de Combate y Consejos de Batalla",
+    "description": "Explora Deltarune Kris Fight Wiki con guías de combate, consejos tácticos, estrategias contra jefes, detalles de personajes y recursos comunitarios.",
+    "legalNotice": "Wiki no oficial hecha por fans. Creada por jugadores, para jugadores."
+  },
+  "nav": {
+    "guide": "Guía",
+    "combat": "Combate",
+    "characters": "Personajes",
+    "theory": "Teoría",
+    "media": "Medios",
+    "mechanics": "Mecánicas",
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Deltarune Kris Fight Wiki - Guía de Jefes y Combate",
+      "description": "Explora Deltarune Kris Fight Wiki con guías de combate, consejos tácticos, estrategias contra jefes, detalles de personajes y recursos sobre los combates de Kris."
+    },
+    "hero": {
+      "eyebrow": "Guía de Combate Fan de Deltarune",
+      "title": "Deltarune Kris Fight Wiki",
+      "description": "Guía creada por fans que cubre las mecánicas del combate de Kris, estrategias de jefes, habilidades de personajes, consejos tácticos e información sobre Deltarune.",
+      "stats": [
+        "Mecánicas de Combate",
+        "Estrategias de Jefes",
+        "Guía de Combate de Kris",
+        "Actualizaciones de Capítulos"
+      ],
+      "primaryCta": "Guía de Principiantes",
+      "secondaryCta": "Guías de Jefes",
+      "tertiaryCta": "Jugar Deltarune",
+      "videoLabel": "Medios oficiales"
+    },
+    "updates": {
+      "title": "Últimas Actualizaciones",
+      "browse": "Explorar Todas las Guías",
+      "viewAll": "Ver Todo"
+    },
+    "start": {
+      "eyebrow": "Empieza Aquí",
+      "title": "Tu Viaje en Deltarune Kris Fight",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía de Principiantes",
+          "description": "Domina la dinámica esencial del combate desde el primer día con nuestra guía completa sobre controles, evasión y supervivencia inicial."
+        },
+        {
+          "number": "2",
+          "title": "Conceptos de Combate y Rozamiento (Graze)",
+          "description": "Aprende el movimiento preciso del ALMA, la generación de TP rozando proyectiles y cómo sobrevivir a fases intensas de bullet hell."
+        },
+        {
+          "number": "3",
+          "title": "Mecánicas de ACTUAR y PERDONAR",
+          "description": "Comprende los comandos del grupo, las opciones de ACT y las rutas pacifistas para vencer a los oponentes sin agotar su PS."
+        },
+        {
+          "number": "4",
+          "title": "Estrategias de Ataques de Jefes",
+          "description": "Analiza los cortes de espada en múltiples fases, las trampas de contracción del tablero y los tiempos de reacción para vencer combates desafiantes."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas Populares",
+      "title": "Tendencias Actuales",
+      "quickLinks": [
+        "Guía de Jefe Kris",
+        "Patrones de Ataque",
+        "Controles de Combate",
+        "Mecánicas del Alma"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía de Principiantes",
+          "description": "Tácticas esenciales, controles y consejos de supervivencia para comenzar tu aventura en Deltarune Kris Fight.",
+          "href": "/guide/deltarune-kris-fight-guide"
+        },
+        {
+          "badge": "Combate",
+          "title": "Patrones de Ataque",
+          "description": "Desglose completo de cortes con espada, contracción de arenas y patrones de proyectiles.",
+          "href": "/combat/deltarune-kris-fight-attack-patterns"
+        },
+        {
+          "badge": "Mecánicas",
+          "title": "Controles y Asignaciones",
+          "description": "Guía completa de controles para teclado y mando para una evasión precisa del ALMA.",
+          "href": "/mechanics/deltarune-kris-fight-controls"
+        },
+        {
+          "badge": "Jefes",
+          "title": "Estrategias Contra Jefes",
+          "description": "Estrategias de supervivencia fase por fase y coordinación de habilidades del equipo.",
+          "href": "/guide/deltarune-kris-fight-boss-fight"
+        },
+        {
+          "badge": "Historia",
+          "title": "Kris: Personaje e Historia",
+          "description": "Análisis profundo de las habilidades de Kris en el Mundo Oscuro, el ALMA roja y teorías de fans.",
+          "href": "/characters/deltarune-kris-fight-kris"
+        },
+        {
+          "badge": "Finales",
+          "title": "Todos los Finales de Batalla",
+          "description": "Explora los desenlaces de rutas pacifistas, neutrales y alternativas para los combates de Kris.",
+          "href": "/guide/deltarune-kris-fight-endings"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Deltarune Kris Fight?",
+      "paragraphs": [
+        "Deltarune Kris Fight profundiza en los emocionantes enfrentamientos de combate, batallas contra jefes creadas por fans y mecánicas tácticas en torno a Kris, el enigmático protagonista humano del aclamado RPG de Toby Fox, Deltarune. Los jugadores navegan por intrincados tableros de proyectiles, gestionan Puntos de Tensión (TP) y comandan a los miembros del grupo mediante esquivas en tiempo real y decisiones por turnos.",
+        "Ya sea analizando las acciones autónomas de Kris y los misterios del ALMA Roja, dominando técnicas precisas de rozamiento (graze) o buscando una victoria impecable sin daño (no-hit) en mods comunitarios, nuestra wiki ofrece análisis tácticos detallados, guías por fases y bases de datos estratégicas."
+      ],
+      "stats": [
+        {
+          "label": "Creador Original",
+          "value": "Toby Fox"
+        },
+        {
+          "label": "Género",
+          "value": "RPG y Bullet Hell"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC y Consolas"
+        },
+        {
+          "label": "Sistema de Combate",
+          "value": "Por Turnos y Esquiva en Tiempo Real"
+        },
+        {
+          "label": "Mecánica Clave",
+          "value": "Rozamiento del ALMA y ACT"
+        },
+        {
+          "label": "Batallas Fan",
+          "value": "CYF y Fangames"
+        }
+      ],
+      "cta": "Explorar Guías de Combate"
+    },
+    "explore": {
+      "title": "Explora Deltarune Kris Fight Wiki",
+      "description": "Domina cada faceta del combate de Kris con tutoriales completos, análisis de patrones de ataque y profundas discusiones sobre el trasfondo.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía de Combate de Deltarune Kris",
+          "description": "Resumen completo del concepto de combate de Kris, incluyendo mecánicas de batalla, controles, objetivos e información esencial para nuevos jugadores.",
+          "href": "/guide/deltarune-kris-fight-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Aprende los controles básicos y calibra la sensibilidad de movimiento de tu ALMA"
+            },
+            {
+              "label": "2",
+              "detail": "Comprende la división entre los comandos por turnos y la esquiva en tiempo real"
+            },
+            {
+              "label": "3",
+              "detail": "Domina el rozamiento (graze) a corta distancia para recargar Puntos de Tensión (TP)"
+            },
+            {
+              "label": "4",
+              "detail": "Ejecuta habilidades combinadas de ACT con Susie y Ralsei para abrir ventanas de PERDÓN"
+            },
+            {
+              "label": "5",
+              "detail": "Reconoce los avisos de corte de espada en múltiples fases y los cambios del tablero"
+            },
+            {
+              "label": "6",
+              "detail": "Equipa los mejores objetos de curación y mantén la defensa durante las fases finales"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Jugabilidad y Combate de Kris",
+          "description": "Detalles de jugabilidad, flujo de batalla, patrones de ataque y estrategias defensivas en los enfrentamientos de Kris.",
+          "href": "/combat/deltarune-kris-fight-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tajos de Espada",
+              "detail": "Identificación de los arcos de ataque para encontrar zonas seguras en cada golpe"
+            },
+            {
+              "label": "Contracción de Arena",
+              "detail": "Posicionamiento óptimo cuando los bordes de la arena de combate se estrechan"
+            },
+            {
+              "label": "Cambios de Ritmo",
+              "detail": "Transición entre ráfagas rápidas y patrones lentos y sincronizados con la música"
+            },
+            {
+              "label": "Defensa Oportuna",
+              "detail": "Uso estratégico de la acción Defender para mitigar daño y recargar TP"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Consejos Tácticos de Batalla",
+          "description": "Consejos prácticos para sobrevivir a enfrentamientos difíciles, aprovechar las acciones de ACT y optimizar el rendimiento.",
+          "href": "/guide/deltarune-kris-fight-battle-tips",
+          "displayType": "accordion",
+          "highlights": [
+            {
+              "label": "Centrar el ALMA",
+              "detail": "Permanecer cerca del centro para evitar quedar acorralado en las esquinas"
+            },
+            {
+              "label": "Prioridad de Curación",
+              "detail": "Equilibrio entre el Rezo Curativo de Ralsei y el uso de objetos consumibles"
+            },
+            {
+              "label": "Lectura de Animaciones",
+              "detail": "Detección de señales visuales previas antes de cada secuencia de proyectiles"
+            },
+            {
+              "label": "Preparación No-Hit",
+              "detail": "Métodos de entrenamiento para memorizar la secuencia exacta de cada fase"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Personajes de Deltarune Kris Fight",
+          "description": "Presentación de Kris y los personajes involucrados en la batalla, sus roles, habilidades y conexiones narrativas.",
+          "href": "/characters/deltarune-kris-fight-characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Kris",
+              "detail": "El misterioso protagonista humano portador del ALMA roja y comandos únicos de ACT"
+            },
+            {
+              "label": "Susie",
+              "detail": "La poderosa luchadora del grupo capaz de infligir un daño abrumador con Rude Buster"
+            },
+            {
+              "label": "Ralsei",
+              "detail": "El amable mago del Mundo Oscuro especializado en apoyo y Rezo Curativo"
+            },
+            {
+              "label": "El Recipiente",
+              "detail": "Conexiones y teorías sobre el cuerpo inicial creado al comienzo de Deltarune"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Controles de Deltarune Kris Fight",
+          "description": "Explicación de controles, comandos del teclado y mando para una referencia rápida durante el combate.",
+          "href": "/mechanics/deltarune-kris-fight-controls",
+          "displayType": "table",
+          "highlights": [
+            {
+              "label": "Direccionales / Joystick",
+              "detail": "Movimiento omnidireccional preciso del ALMA en el tablero de batalla"
+            },
+            {
+              "label": "Z / Confirmar",
+              "detail": "Selección de comandos, avance de diálogos y parada del medidor de ataque"
+            },
+            {
+              "label": "X / Cancelar / Lento",
+              "detail": "Cancelar acciones y mantener presionado para mover el ALMA con máxima precisión"
+            },
+            {
+              "label": "C / Menú",
+              "detail": "Acceso a la configuración, comprobación de estadísticas y mochila"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Secretos y Misterios de la Batalla",
+          "description": "Detalles ocultos, descubrimientos y curiosidades fascinantes en torno a los combates de Kris y el universo de Deltarune.",
+          "href": "/theory/deltarune-kris-fight-secrets",
+          "displayType": "accordion",
+          "highlights": [
+            {
+              "label": "Eventos Nocturnos",
+              "detail": "El misterio de Kris arrancando el ALMA del jugador durante las secuencias nocturnas"
+            },
+            {
+              "label": "Ruta Snowgrave",
+              "detail": "Análisis de las consecuencias narrativas y el cambio de dinámicas de combate"
+            },
+            {
+              "label": "El Caballero Aullante",
+              "detail": "Teorías comunitarias que vinculan a Kris con la creación de las Fuentes Oscuras"
+            },
+            {
+              "label": "Mods de CYF",
+              "detail": "Descubrimiento de jefes secretos personalizados diseñados en Create Your Frisk"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Vídeos de Deltarune Kris Fight",
+          "description": "Selección de vídeos oficiales y de la comunidad que muestran combates de Kris, guías de evasión y sistemas de batalla.",
+          "href": "/media/deltarune-kris-fight-youtube",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Partidas Sin Daño",
+              "detail": "Demostraciones magistrales de esquiva perfecta ante patrones de proyectiles complejos"
+            },
+            {
+              "label": "Demostraciones de Jefes",
+              "detail": "Exhibición de combates personalizados creados por la comunidad en Create Your Frisk"
+            },
+            {
+              "label": "Animaciones Fan",
+              "detail": "Impresionantes batallas animadas que retratan los duelos del Mundo Oscuro"
+            },
+            {
+              "label": "Remixes de la BSO",
+              "detail": "Arreglos orquestales y mezclas electrónicas de los temas de batalla de Kris"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Actualizaciones de Deltarune",
+          "description": "Seguimiento de anuncios oficiales, lanzamientos de capítulos y novedades que influyen en las mecánicas de Kris.",
+          "href": "/mechanics/deltarune-kris-fight-mechanics",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Capítulo 1",
+              "detail": "Aventura en el Reino de los Naipes que estableció el combate y los Puntos de Tensión"
+            },
+            {
+              "label": "Capítulo 2",
+              "detail": "Expansión en el Mundo Cibernético con Queen, Spamton NEO y nuevos comandos de ACT"
+            },
+            {
+              "label": "Capítulos 3 y 4",
+              "detail": "Próximos lanzamientos que expandirán los arcos narrativos y sistemas de combate"
+            },
+            {
+              "label": "Ajustes de Motor",
+              "detail": "Notas de desarrollo oficiales sobre equilibrio y compatibilidad con mandos"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Respuestas directas a las preguntas más comunes sobre mecánicas de combate y lore en Deltarune Kris Fight.",
+      "items": [
+        {
+          "question": "¿Qué es Deltarune Kris Fight?",
+          "answer": "Deltarune Kris Fight hace referencia a las mecánicas tácticas de combate, confrontaciones narrativas y batallas contra jefes creadas por fans en torno a Kris, el protagonista humano de Deltarune por Toby Fox. Abarca tanto el sistema oficial del Mundo Oscuro como los desafiantes combates creados por la comunidad."
+        },
+        {
+          "question": "¿Cómo esquivar ataques eficazmente en Deltarune Kris Fight?",
+          "answer": "Para esquivar eficazmente, mantén el ALMA roja cerca del centro del tablero, observa las señales previas de la espada de Kris antes de cada ataque y utiliza el botón de movimiento lento (Shift o X) para hacer microajustes precisos en vez de correr hacia las esquinas."
+        },
+        {
+          "question": "¿Cómo funciona el sistema de rozar balas (Graze) y los Puntos de Tensión (TP)?",
+          "answer": "Al situar tu ALMA muy cerca de los proyectiles sin recibir daño, se activa la mecánica de rozar (graze). Rozar balas genera Puntos de Tensión (TP), necesarios para lanzar hechizos fundamentales como el Rezo Curativo de Ralsei o habilidades de pacificación."
+        },
+        {
+          "question": "¿Es posible derrotar a Kris de forma pacífica usando PERDONAR y ACTUAR?",
+          "answer": "Sí, fiel a la filosofía de Deltarune, la mayoría de los enfrentamientos de Kris ofrecen rutas pacifistas en las que puedes usar comandos de ACTUAR y aguantar los turnos para llenar la barra de PERDONAR, concluyendo la batalla sin reducir sus PS a cero."
+        },
+        {
+          "question": "¿Dónde puedo jugar o ver combates creados por la comunidad de Deltarune Kris Fight?",
+          "answer": "Las creaciones de la comunidad suelen alojarse en plataformas como Game Jolt, Scratch o jugarse mediante Create Your Frisk (CYF). En YouTube puedes encontrar numerosas demostraciones en vídeo, carreras de velocidad y desafíos sin recibir daño."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para Dominar Deltarune Kris Fight?",
+      "description": "Desde los conceptos básicos hasta los combates de jefes más desafiantes, nuestra wiki comunitaria te ofrece guías gratuitas y actualizadas.",
+      "primary": "Leer la Guía de Principiantes",
+      "secondary": "Jugar Deltarune"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la Wiki",
+    "activeCodes": "Códigos Activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de Contenidos",
+    "nextSteps": "Siguientes Pasos",
+    "needHelp": "¿Necesitas Ayuda?",
+    "relatedReading": "Lecturas Relacionadas",
+    "relatedGuides": "Guías Relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Deltarune Kris Fight Wiki",
+    "about": "Deltarune Kris Fight Wiki es un centro de guías independiente creado por fans que cubre mecánicas de combate, estrategias contra jefes, sistemas de batalla y conocimientos esenciales para jugadores de Deltarune.",
+    "quickLinks": "Enlaces Rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "© 2026 Deltarune Kris Fight Wiki. No está afiliado a Toby Fox ni a Deltarune.",
+    "description": "Guía completa de batalla y wiki para los combates y jefes de Kris en Deltarune.",
+    "playGame": "Jugar Deltarune",
+    "officialDiscord": "Discord Oficial",
+    "officialYoutube": "YouTube Oficial",
+    "vvBuilder": "Planificador de Combate",
+    "beginnerGuide": "Guía de Principiantes",
+    "raceGuides": "Guías de Razas",
+    "bossGuides": "Guías de Jefes",
+    "buildGuide": "Guía de Builds",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos del Servicio",
+    "guide": "Guía",
+    "combat": "Combate",
+    "characters": "Personajes",
+    "theory": "Teoría",
+    "media": "Medios",
+    "mechanics": "Mecánicas"
+  },
+  "guide": {
+    "overviewTitle": "Resumen de Guías",
+    "overviewDescription": "Tutoriales completos, estrategias para principiantes, tácticas contra jefes y guías de finales para Deltarune Kris Fight."
+  },
+  "combat": {
+    "overviewTitle": "Resumen de Combate",
+    "overviewDescription": "Domina los sistemas de combate de Kris, patrones de ataque, estrategias sin daño (no-hit), modos del ALMA y técnicas de esquiva en Deltarune."
+  },
+  "characters": {
+    "overviewTitle": "Resumen de Personajes",
+    "overviewDescription": "Análisis detallado de Kris, teorías sobre el Caballero Aullante, conexiones con el Recipiente, atributos, posturas y trasfondo de personajes."
+  },
+  "theory": {
+    "overviewTitle": "Resumen de Teorías",
+    "overviewDescription": "Investigaciones profundas sobre el trasfondo de Deltarune Kris Fight, la ruta Snowgrave, mecánicas del ALMA del jugador y teorías de la comunidad."
+  },
+  "media": {
+    "overviewTitle": "Resumen de Medios",
+    "overviewDescription": "Música destacada de la banda sonora, animaciones de batalla, creaciones comunitarias, vídeos y análisis multimedia de Deltarune Kris Fight."
+  },
+  "mechanics": {
+    "overviewTitle": "Resumen de Mecánicas",
+    "overviewDescription": "Desglose exhaustivo de los controles de combate de Kris, fórmulas de TP y rozamiento (graze), cálculo de daño y mecánicas de dificultad."
+  }
+}
