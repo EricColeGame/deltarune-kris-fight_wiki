@@ -165,71 +165,43 @@ export async function getAllContent(contentType: string, language: Locale): Prom
     }),
   );
 
-  return items
-    .filter((item): item is ContentItem => Boolean(item))
-    .sort((a, b) => a.metadata.title.localeCompare(b.metadata.title));
+  return items.filter((item): item is ContentItem => item !== null);
 }
 
 /**
- * 获取单个内容项（含 MDX 渲染后的内容组件）
- * 使用动态 import 直接导入 .mdx 文件
+ * 获取单篇内容（支持动态 import MDX 组件和提取 headings）
  */
 export async function getContent(contentType: string, slugSegments: string[], language: Locale): Promise<ContentData | null> {
-  const currentSlug = slugSegments.join("/");
   const contentDir = path.join(CONTENT_ROOT, language, contentType);
+  const slug = slugSegments.join("/");
+  const realSlug = findFileBySlug(contentDir, slug) || slug;
+  const filePath = path.join(contentDir, `${realSlug}.mdx`);
 
   try {
-    const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug;
-    const mdxPath = path.join(contentDir, `${realSlug}.mdx`);
-    const { default: MDXContent, metadata } = await import(
-      `../../content/${language}/${contentType}/${realSlug}.mdx`
-    );
+    const mod = await import(`../../content/${language}/${contentType}/${realSlug}.mdx`);
+    const headings = getHeadingsFromFile(filePath);
 
     return {
-      slug: currentSlug,
+      slug,
       segments: slugSegments,
       contentType,
       locale: language,
-      metadata: metadata as ContentMetadata,
-      MDXContent,
-      headings: getHeadingsFromFile(mdxPath),
+      metadata: mod.metadata as ContentMetadata,
+      MDXContent: mod.default,
+      headings,
     };
   } catch {
-    // Fallback 到英文
-    if (language !== routing.defaultLocale) {
-      try {
-        const enContentDir = path.join(CONTENT_ROOT, routing.defaultLocale, contentType);
-        const enRealSlug = findFileBySlug(enContentDir, currentSlug) || currentSlug;
-        const enMdxPath = path.join(enContentDir, `${enRealSlug}.mdx`);
-        const { default: MDXContent, metadata } = await import(
-          `../../content/${routing.defaultLocale}/${contentType}/${enRealSlug}.mdx`
-        );
-        return {
-          slug: currentSlug,
-          segments: slugSegments,
-          contentType,
-          locale: routing.defaultLocale,
-          metadata: metadata as ContentMetadata,
-          MDXContent,
-          headings: getHeadingsFromFile(enMdxPath),
-        };
-      } catch {
-        return null;
-      }
-    }
     return null;
   }
 }
 
-/**
- * 导航分组结构（用于动态 Wiki Navigation）
- */
+// 导航分组类型
 export interface NavGroup {
-  /** 分组标题，来自目录名转人类可读格式，如 "bosses" → "Bosses" */
+  /** 分组标题（由 GROUP_TITLES 映射或首字母大写） */
   title: string;
   /** 该分组下的文章数量 */
   count: number;
-  /** 分组 slug（即目录名，如 "bosses"） */
+  /** 分组 slug（即目录名，如 "guide"） */
   slug: string;
   /** 文章链接列表 */
   links: Array<{ label: string; href: string; badge?: string }>;
@@ -237,24 +209,22 @@ export interface NavGroup {
 
 // 分组标题映射：slug → 人类可读标题（默认英文）
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
-  guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  guide: "Guide",
+  combat: "Combat",
+  characters: "Characters",
+  theory: "Theory",
+  media: "Media",
+  mechanics: "Mechanics",
 };
 
 // 日文分组标题映射
 const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
+  guide: "攻略",
+  combat: "戦闘",
+  characters: "キャラクター",
+  theory: "考察",
+  media: "メディア",
+  mechanics: "システム",
 };
 
 // locale → 分组标题映射
@@ -265,11 +235,18 @@ const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
   ja: "一覧",
+  es: "Resumen",
+  de: "Übersicht",
 };
 
 // 分组排序顺序
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide",
+  "combat",
+  "characters",
+  "theory",
+  "media",
+  "mechanics",
 ];
 
 /**

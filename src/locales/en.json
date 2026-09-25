@@ -6,7 +6,17 @@
     "description": "Explore Deltarune Kris Fight Wiki with battle guides, combat tips, boss strategies, character details, and fan resources for Kris battles.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "combat": "Combat",
+    "characters": "Characters",
+    "theory": "Theory",
+    "media": "Media",
+    "mechanics": "Mechanics",
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
   "home": {
     "meta": {
       "title": "Deltarune Kris Fight Wiki - Boss Guide & Tips",
@@ -387,7 +397,6 @@
       "secondary": "Play Deltarune"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -422,6 +431,36 @@
     "bossGuides": "Boss Guides",
     "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "guide": "Guide",
+    "combat": "Combat",
+    "characters": "Characters",
+    "theory": "Theory",
+    "media": "Media",
+    "mechanics": "Mechanics"
+  },
+  "guide": {
+    "overviewTitle": "Guide Overview",
+    "overviewDescription": "Comprehensive walkthroughs, beginner strategies, boss fight tactics, and ending guides for Deltarune Kris Fight."
+  },
+  "combat": {
+    "overviewTitle": "Combat Overview",
+    "overviewDescription": "Master Kris battle systems, attack patterns, no-hit strategies, SOUL modes, and tactical evasion techniques in Deltarune."
+  },
+  "characters": {
+    "overviewTitle": "Characters Overview",
+    "overviewDescription": "Detailed analysis of Kris, Roaring Knight theories, Vessel connections, stats, poses, and character lore in Deltarune Kris Fight."
+  },
+  "theory": {
+    "overviewTitle": "Theory Overview",
+    "overviewDescription": "Deep dives into Deltarune Kris Fight lore, Weird Route connections, Player SOUL mechanics, and fan battle theories."
+  },
+  "media": {
+    "overviewTitle": "Media Overview",
+    "overviewDescription": "Soundtrack highlights, battle animations, community creations, videos, and media discussions for Deltarune Kris Fight."
+  },
+  "mechanics": {
+    "overviewTitle": "Mechanics Overview",
+    "overviewDescription": "In-depth breakdown of Kris fight controls, TP and graze systems, HP formulas, stat scaling, and difficulty mechanics."
   }
 }
