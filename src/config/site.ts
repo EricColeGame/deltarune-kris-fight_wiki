@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Boss Guide, Combat Mechanics & Battle Tips",
   description: "Explore Deltarune Kris Fight Wiki with battle guides, combat tips, boss strategies, character details, and fan resources for Kris battles.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://deltarune-kris-fight.wiki",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://deltarune-kris-fight.wiki").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@deltarune-kris-fight.wiki",
   gameUrl: "https://deltarune.com/",
   heroVideoId: "WHnjKwVKIjg",
   social: {
