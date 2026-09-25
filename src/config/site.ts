@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Deltarune Kris Fight Wiki",
+  shortName: "Deltarune Kris Fight",
+  logoText: "DK",
+  tagline: "Boss Guide, Combat Mechanics & Battle Tips",
+  description: "Explore Deltarune Kris Fight Wiki with battle guides, combat tips, boss strategies, character details, and fan resources for Kris battles.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://deltarune-kris-fight.wiki",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://deltarune-kris-fight.wiki").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://deltarune.com/",
+  heroVideoId: "WHnjKwVKIjg",
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://www.reddit.com/r/Deltarune/",
+    youtube: "https://www.youtube.com/@TobyFox",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
